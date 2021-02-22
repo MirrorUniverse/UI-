@@ -1,0 +1,12 @@
+<!--pages/me/me.wxml-->
+<view class="container1">
+  <view>进入时空</view>
+</view>
+<view class="container2">
+  <view>测试数据</view>
+  <view>测试结果</view>
+  <view>发展建议</view>
+  <view>相处建议</view>
+  <view>团队分析</view>
+  <view>版本号</view>
+</view>

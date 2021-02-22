@@ -1,0 +1,54 @@
+/* pages/base/base.wxss */
+.list-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.question1 {
+  justify-content:center; /**主轴居中*/
+  display: flex;
+}
+.container1 {
+  display: flex;  /**指定flex 布局*/
+  flex-direction:row; /**布局内item 方向*/
+  justify-content:space-between; /**主轴两边对其*/
+
+} 
+
+.container1 view{
+  display: flex; /**指定flex 布局*/
+  width:100rpx; /**宽度*/
+  height:100rpx; /**高度*/
+  justify-content:center; /**主轴居中*/
+  align-items:center; /**交叉轴居中*/
+  border: 1pt #aaa solid; /**显示边框*/
+}
+.fly {
+  padding: 10px;
+  display: flex;
+  justify-content:flex-start;
+  background-color:#dbc9fc;
+  width:100rpx; /**宽度*/
+  height:50rpx; /**高度指定*/
+  text-align: center; /**文字居中*/
+  line-height: 100rpx; /**文字居中*/
+  font-size: 30rpx;
+  border-radius: 20rpx;
+}
+.check {
+  display: flex;  /**指定flex 布局*/
+  flex-direction:column; /**主轴 方向*/
+  align-items: center;
+} 
+.check view{
+  padding: 10px;
+  justify-content:flex-end;
+  background-color:#c9fccd;
+  width:400rpx; /**宽度*/
+  height:50rpx; /**高度指定*/
+  text-align: center; /**文字居中*/
+  line-height: 100rpx; /**文字居中*/
+  font-size: 30rpx;
+  border-radius: 20rpx;
+}

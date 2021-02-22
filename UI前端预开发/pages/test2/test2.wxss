@@ -1,0 +1,16 @@
+/* pages/test1/test1.wxss */
+
+.container1 {
+  display: flex;  /**指定flex 布局*/
+  flex-direction:row; /**布局内item 方向*/
+  justify-content:space-between; /**主轴两边对其*/
+} 
+ 
+.container1 view{
+  display: flex; /**指定flex 布局*/
+  width:100rpx; /**宽度*/
+  height:100rpx; /**高度*/
+  justify-content:center; /**主轴居中*/
+  align-items:center; /**交叉轴居中*/
+  border: 1pt #aaa solid; /**显示边框*/
+}

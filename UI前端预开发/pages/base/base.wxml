@@ -1,0 +1,26 @@
+<!--pages/base/base.wxml-->
+<view class="list-title">
+<view  class="time">剩余时间</view>
+<view   class="questionnumber">1/108</view>
+</view>
+<view class="question1">
+  <text>1.我很容易迷惑</text>
+</view>
+<view class="container1">
+  <text>不可能</text>
+  <view>0</view>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+  <view>4</view>
+  <view>5</view>
+  <text>极有可能</text>
+</view>
+
+<view class="fly">
+  <view>飞过来</view>
+</view>
+<view class="check">
+  <view>查看结果</view>
+</view>
+

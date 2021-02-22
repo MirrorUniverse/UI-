@@ -1,0 +1,55 @@
+
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  
+}
+input {
+  width: 100%;
+}
+/* 测试区域 */
+.navContainer {
+  display: flex;
+}
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  
+}
+.navItem .iconfont {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  background: #048d8d;
+  color: white;
+  margin: 10px 0;
+}
+
+.navItem text {
+  font-size: 12px;
+}
+
+
+
+.desc {
+  /*定义为自适应布局*/
+  display: -webkit-box;
+  word-break: break-all;
+  /*超出文字用省略号代替*/
+  text-overflow: ellipsis;
+  /*竖直方向的超出和隐藏*/
+  -webkit-box-orient: vertical;
+  /*设定行数为2*/
+  -webkit-line-clamp: 2;
+  /*多出部分隐藏*/
+  overflow: hidden;
+
+  font-size: 15px;
+}

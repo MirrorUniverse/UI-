@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<view class="indexContainer">
+
+  <!-- 测试区域 -->
+  <view class="navContainer">
+    <view class="navItem" bindtap="goToBase">
+      <text class="iconfont iconexport"></text>
+      <text>基础测试</text>
+    </view>
+    <view class="navItem" bindtap="goToEasy">
+      <text class="iconfont iconfile"></text>
+      <text>简易测试</text>
+    </view>
+    <view class="navItem" bindtap="goToAdvance">
+      <text class="iconfont icontraining"></text>
+      <text>进阶测试</text>
+    </view>
+    <view class="navItem" bindtap="goToDeep">
+      <text class="iconfont iconplay"></text>
+      <text>深层测试</text>
+    </view>
+  </view>
+
+  <view class="divline"></view>
+
+  
+</view>
+

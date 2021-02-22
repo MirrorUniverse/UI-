@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/base/base",
+    "pages/deep/deep",
+    "pages/advance/advance",
+    "pages/easy/easy",
+    "pages/test2/test2"
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#014949",
+    "navigationBarTitleText": "镜像空间",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"black",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "镜像映射",
+      "iconPath": "/static/icons/home-filling.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "镜像空间",
+      "iconPath": "/static/icons/user-filling.png"
+    }]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

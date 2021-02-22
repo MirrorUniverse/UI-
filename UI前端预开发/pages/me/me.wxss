@@ -1,0 +1,31 @@
+/* pages/me/me.wxss */
+.container1 {
+  display: flex;  /**指定flex 布局*/
+  flex-direction:column; /**主轴 方向*/
+  align-items: center;
+} 
+   
+.container1 view{
+  border: 1pt #fcfff5 solid; /**显示边框*/
+  width:400rpx; /**宽度*/
+  height:70rpx; /**高度指定*/
+  background-color:#bcffeb;
+  text-align: center; /**文字居中*/
+  line-height: 100rpx; /**文字居中*/
+  font-size: 30rpx;
+  border-radius: 20rpx;
+}
+.container2 {
+  display: flex;  /**指定flex 布局*/
+  flex-direction:column; /**主轴 方向*/
+  align-items: center;
+} 
+ 
+.container2 view{
+  border: 1pt #fcfff5 solid; /**显示边框*/
+  width:600rpx; /**宽度*/
+  height:100rpx; /**高度指定*/
+  background-color:#009e9e;
+  text-align: center; /**文字居中*/
+  line-height: 100rpx; /**文字居中*/
+}
